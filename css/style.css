@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One|Ubuntu:300,400,700");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.container {
+  max-width: 900px;
+  margin: auto; }
+
+header {
+  background: black; }
+  header h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 21px 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ed1b2f; }
+  header img {
+    margin: auto;
+    display: block; }
+  header nav {
+    position: relative;
+    text-align: center;
+    padding: 34px 0; }
+    header nav li {
+      display: inline-block; }
+      header nav li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 20px;
+        font-family: 'Ubuntu', sans-serif; }
+
+section {
+  background: #ed1b2f; }
+
+.derecha {
+  background: #ed1b2f;
+  display: inline-block;
+  width: 49%;
+  padding: 60px 0;
+  box-sizing: border-box; }
+  .derecha h2 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px; }
+  .derecha img {
+    margin: auto;
+    display: block; }
+  .derecha nav {
+    position: relative;
+    text-align: center; }
+    .derecha nav li {
+      display: inline-block; }
+      .derecha nav li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 20px;
+        font-family: 'Ubuntu', sans-serif; }
+
+.izquierda {
+  display: inline-block;
+  width: 50.55%;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #edeef0; }
+  .izquierda h3 {
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 40px; }
+  .izquierda p {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
+    padding: 0 0 10px 0; }
+
+.derecha1 {
+  background: #edeef0;
+  display: inline-block;
+  width: 49%;
+  padding: 60px 0;
+  box-sizing: border-box; }
+  .derecha1 h2 {
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px; }
+  .derecha1 img {
+    margin: auto;
+    display: block; }
+  .derecha1 nav {
+    position: relative;
+    text-align: center; }
+    .derecha1 nav li {
+      display: inline-block; }
+      .derecha1 nav li a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 20px;
+        font-family: 'Ubuntu', sans-serif; }
+
+.izquierda1 {
+  display: inline-block;
+  width: 50.55%;
+  padding: 35px;
+  box-sizing: border-box;
+  background: #ed1b2f; }
+  .izquierda1 h3 {
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 40px; }
+  .izquierda1 p {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 20px;
+    padding: 0 0 10px 0; }
+
+/*# sourceMappingURL=style.css.map */

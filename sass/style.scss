@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Ubuntu:300,400,700');
+@import "reset";
+
+.container {
+	max-width: 900px;
+	margin: auto;
+}
+
+header{
+	background: black;
+	h1{
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: 700;
+		text-align: center;
+		padding: 21px 0;
+		font-family: 'Ubuntu', sans-serif;
+		color: #ed1b2f;
+	}
+
+	img{
+		margin:auto;
+		display: block;
+	}
+
+	nav{
+		position: relative;
+		text-align: center;
+		padding: 34px 0;
+
+		li{
+			display: inline-block;
+
+			a{
+				text-decoration: none;
+				color: white;
+				text-transform: uppercase;
+				font-size: 15px;
+				font-weight: 700;
+				margin-right: 20px;
+				font-family: 'Ubuntu', sans-serif;
+			}
+		}
+	}
+}
+
+section {
+	background: #ed1b2f;
+}
+.derecha{
+		background: #ed1b2f;
+		display: inline-block;
+		width: 49%;
+		padding: 60px 0;
+		box-sizing: border-box;
+
+		h2{
+			text-align: center;
+			font-family: 'Russo One', sans-serif;
+			font-size: 40px;
+		}
+
+		img{
+			margin:auto;
+	        display: block;
+		}
+
+		nav{
+		position: relative;
+		text-align: center;
+
+		li{
+			display: inline-block;
+
+			a{
+				text-decoration: none;
+				color: white;
+				text-transform: uppercase;
+				font-size: 15px;
+				font-weight: 700;
+				margin-right: 20px;
+				font-family: 'Ubuntu', sans-serif;
+			}
+		}
+	}
+}
+
+.izquierda{
+	display: inline-block;
+	width: 50.55%;
+	padding: 35px;
+	box-sizing: border-box;
+	background: #edeef0;
+
+	h3{
+		font-family: 'Russo One', sans-serif;
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	p{
+		font-family: 'Ubuntu', sans-serif;
+		line-height: 20px;
+		padding: 0 0 10px 0;
+	}
+}
+
+.derecha1{
+		background: #edeef0;
+		display: inline-block;
+		width: 49%;
+		padding: 60px 0;
+		box-sizing: border-box;
+
+		h2{
+			text-align: center;
+			font-family: 'Russo One', sans-serif;
+			font-size: 40px;
+		}
+
+		img{
+			margin:auto;
+	        display: block;
+		}
+
+		nav{
+		position: relative;
+		text-align: center;
+
+		li{
+			display: inline-block;
+
+			a{
+				text-decoration: none;
+				color: white;
+				text-transform: uppercase;
+				font-size: 15px;
+				font-weight: 700;
+				margin-right: 20px;
+				font-family: 'Ubuntu', sans-serif;
+			}
+		}
+	}
+}
+
+.izquierda1{
+	display: inline-block;
+	width: 50.55%;
+	padding: 35px;
+	box-sizing: border-box;
+	background: #ed1b2f;
+
+	h3{
+		font-family: 'Russo One', sans-serif;
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 40px;
+	}
+
+	p{
+		font-family: 'Ubuntu', sans-serif;
+		line-height: 20px;
+		padding: 0 0 10px 0;
+	}
+}
